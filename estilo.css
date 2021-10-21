@@ -1,0 +1,132 @@
+    body {
+        margin: 0%;
+    }
+    
+    .transparencia {
+        width: 1fr;
+        position: relative;
+        background: white;
+    }
+    
+    #fondo {
+        width: 100%;
+    }
+    
+    #personaje {
+        width: 100%;
+        filter: drop-shadow(10px 10px 4px rgba(40, 4, 4, 0.25));
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    #caratula {
+        width: 50%;
+        filter: drop-shadow(5px 2px 0px rgba(0, 0, 0, 0.25));
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    .fondos {
+        position: absolute;
+    }
+    
+    .caratulas {
+        position: relative;
+        text-align: center;
+        top: 5vh;
+    }
+    
+    .personajes {
+        width: 20%;
+        position: absolute;
+        top: 50vh;
+        margin-left: 15%;
+        z-index: 2;
+        filter: drop-shadow(10px 10px 4px rgba(78, 76, 76, 0.445));
+    }
+    
+    .texto {
+        margin-top: -13%;
+        margin-left: 35%;
+        width: 50%;
+        position: relative;
+        color: wheat;
+    }
+    
+    .preview {
+        margin-left: 26%;
+        margin-top: -15%;
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    
+    button {
+        border: none;
+        border-radius: 10%;
+        background: none;
+    }
+    
+    #icon_back {
+        width: 25%;
+        margin-left: -35%;
+        filter: drop-shadow(10px 10px 4px rgba(247, 247, 247, 0.25));
+        background: rgba(66, 65, 65, 0.342);
+        border-radius: 30%;
+    }
+    
+    #icon_next {
+        width: 25%;
+        margin-left: 40%;
+        filter: drop-shadow(10px 10px 4px rgba(247, 247, 247, 0.25));
+        background: rgba(66, 65, 65, 0.342);
+        border-radius: 30%;
+    }
+    
+    #back {
+        width: 100%;
+        transform: rotate(180deg);
+    }
+    
+    #next {
+        width: 100%;
+    }
+    
+    #play {
+        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.644));
+        position: absolute;
+        width: 20%;
+        left: 40%;
+        top: 35%;
+        opacity: .7;
+        z-index: 2;
+    }
+    
+    #play:hover {
+        filter: drop-shadow(10px 10px 4px rgba(20, 231, 221, 0.644));
+    }
+    
+    #trailer {
+        width: 50%;
+    }
+    
+    #play :hover {
+        width: 60%;
+        opacity: 1;
+    }
+    
+    #icon_next :hover,
+    #icon_back :hover {
+        filter: drop-shadow(10px 10px 4px rgba(49, 47, 47, 0.25));
+        background: rgba(223, 219, 219, 0.342);
+        border-radius: 30%;
+    }
+    
+    #trailer-video {
+        width: 40%;
+        height: 80%;
+        margin-top: 2%;
+        margin-left: 4.5%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 1%;
+    }
